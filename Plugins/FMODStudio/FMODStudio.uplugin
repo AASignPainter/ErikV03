@@ -1,0 +1,33 @@
+{
+    "FileVersion" : 3,
+	
+	"FriendlyName" : "FMOD Studio Integration",
+	"Version" : 10905,
+	"VersionName" : "1.09.05",
+	"CreatedBy" : "Firelight Technologies",
+	"CreatedByURL" : "http://fmod.com",
+	"Description" : "FMOD Studio Integration.",
+	"Category" : "Audio",
+	"EnabledByDefault" : true,
+	
+	"Modules" :
+	[
+		{
+			"Name" : "FMODStudioOculus",
+			"Type" : "Runtime",
+			"LoadingPhase" : "PreDefault"
+		},
+		{
+			"Name" : "FMODStudio",
+			"Type" : "Runtime",
+			"LoadingPhase" : "PreDefault"
+		},
+		{
+			"Name" : "FMODStudioEditor",
+			"Type" : "Editor"
+		}
+	],
+
+	"CanContainContent" : true,
+	"Installed" : true
+}
